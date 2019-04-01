@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css">
+        <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="box">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="inputBox">
+                    <input type="email" name="username" id="username" required>
+                    <label>Username</label>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="password" id="password"required>
+                    <label>Password</label>
+                </div>
+               
+                   <!-- <input type="submit" name="submit" id="submitForm" value="Submit">-->
+                <button type="submit" class="button1" onclick="location.href = 'main.html';";>Login</button>
+            </form>
+        </div>
+        
+       
+        <script src="/babeljs/login.js"></script>
+    </body>
+</html>

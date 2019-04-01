@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/babeljs/index.js"></script>
+    
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+        <a href="/html/tech1.html">Technology</a>
+        <a href="/html/science.html">Science</a>
+        <a href="/html/entertain.html">Entertainment</a>
+        <a href="" id="dem">
+
+        </a>
+        <a href="" onclick="sessionStorage.removeItem('us');";>logout</a>
+        <a href=""></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="flex-container">
+    <div><h1>RECENT POSTS </h1></div>
+    <div><button class="button1" onclick="location.href = '/html/entertaincreate.html'";>Add Post</button></div>
+    
+</div>
+  <div id="tech" class="blend">
+   
+  </div>
+  <script src="/babeljs/entertain.js"></script>
+  </body>
+  
+</html>
